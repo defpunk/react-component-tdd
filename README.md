@@ -1,4 +1,28 @@
-# Getting Started with Create React App
+# Confirmation TDD
+
+This is a basic react repository setup to pracice using TDD (Test Driven Development) to create a 
+basic confirmation component in react. For each of the requirements create a failing test in Confirmation.test.tsx file, then add the code to the project to make the test pass. The first test is in place for you, it should be failing so your first job is to write just enough code to make it pass. Robert C. Martin (“Uncle Bob”) provides a concise set of rules for practicing TDD, bear them in mind as you work thriug the requirements.
+
+1. Write production code only to pass a failing unit test.
+2. Write no more of a unit test than sufficient to fail (compilation failures are failures).
+3. Write no more production code than necessary to pass the one failing unit test.
+
+**Requiements**
+
+Create a confirmation component that satisfies the following:
+
+* has the dialog role
+* has the title Confirmation
+* displays the configured question
+* has a 'OK' button
+* has a 'Cancel' button
+* supports event handler for ok button
+* support event handler for cancel button
+
+
+This exercise was inspired by Matti Bar-Zeev's dev.to tutorial [Creating a React component with TDD](https://dev.to/mbarzeev/creating-a-react-component-with-tdd-2jn8). It has a step by step guide on how to go about implementing this.
+
+**Create React APP** 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
